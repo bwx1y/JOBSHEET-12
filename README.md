@@ -128,3 +128,9 @@ type data yang dikembalikan adalah int dan lalu dua type data yang di gunakan ad
 4. Modifikasi kode di atas sehingga bisa memilih beberapa jenis menu berbeda serta menampilkan total keseluruhan pesanan. Bagaimana memodifikasi program sehingga pengguna dapat: memesan lebih dari satu jenis menu (misalnya menu 1 dan 3 sekaligus), dan menampilkan total keseluruhan pesanan (gabungan dari semua jenis menu)?
 
 -- 
+
+## Percobaan 2.4
+
+1. Jelaskan mengapa penulisan parameter di praktikum 4 ditulis dengan String... namaPengunjung!
+
+String... namaPengunjung adalah varargs (variable arguments), Artinya fungsi dapat menerima 0 atau lebih argumen bertipe String.
