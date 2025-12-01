@@ -51,3 +51,6 @@ public class Kafe18 {
 
 Parameter memungkinkan kita mengirim nilai atau informasi dari luar fungsi ke dalam fungsi.
 
+2. Jelaskan mengapa pada percobaan ini fungsi Menu() menggunakan parameter namaPelanggan dan isMember?
+
+parameter nama pelanggan di gunakan untuk menampilkan sambutan lalu nama pelangan di setiap pelanggan, parameter isMember di gunakan utuk menentukan apakah pelanggan mendapatkan diskon
