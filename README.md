@@ -54,3 +54,8 @@ Parameter memungkinkan kita mengirim nilai atau informasi dari luar fungsi ke da
 2. Jelaskan mengapa pada percobaan ini fungsi Menu() menggunakan parameter namaPelanggan dan isMember?
 
 parameter nama pelanggan di gunakan untuk menampilkan sambutan lalu nama pelangan di setiap pelanggan, parameter isMember di gunakan utuk menentukan apakah pelanggan mendapatkan diskon
+
+3. Apakah parameter sama dengan variabel? Jelaskan.
+
+tidak sama karena paremeter adalah variable kusus yang di gunakan untuk menerima nilai dari pemanggil fungsi dan variable adalah tempat untuk menyimpan data dalam progam
+
