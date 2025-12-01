@@ -100,3 +100,8 @@ public static void Menu(String namaPelanggan, boolean isMember, String kodePromo
 7. Berdasarkan fungsi Menu() di atas, jika nama pelanggan adalah "Budi", pelanggan tersebut member, dan menggunakan kode promo "DISKON30", tuliskan satu baris perintah pemanggilan fungsi menu yang benar.
 
 berhasil di jalankan dan memberikan ``Kode promo berlaku: Diskon 30%!``
+
+8. Menurut Anda, apakah penggunaan parameter namaPelanggan dan isMember pada fungsi Menu() membuat program lebih mudah dibaca dan dikembangkan dibandingkan jika nilai-nilai tersebut ditulis langsung di dalam fungsi tanpa parameter? Jelaskan alasan Anda.
+
+Ya, penggunaan parameter namaPelanggan dan isMember pada fungsi Menu() membuat program lebih mudah dibaca, fleksibel, dan mudah dikembangkan dibandingkan menulis nilai-nilai tersebut langsung di dalam fungsi. karena kode lebih fleksibel, Memudahkan pemeliharaan, kode lebih rapi dan modular, Mendukung pengembangan program
+
