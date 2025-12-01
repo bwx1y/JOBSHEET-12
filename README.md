@@ -143,3 +143,6 @@ String... namaPengunjung adalah varargs (variable arguments), Artinya fungsi dap
 
 tidak bisa, Di Java, hanya boleh ada satu varargs parameter dalam satu method, dan harus ditempatkan di akhir daftar parameter dan Jika ingin menerima tipe berbeda, harus menggunakan array atau tipe objek, atau membuat overload method.
 
+4. Jelaskan apa yang terjadi jika fungsi daftarPengunjung dipanggil tanpa argumen. Apakah program akan error saat kompilasi, error saat dijalankan, atau tetap berjalan? Jika tetap berjalan, bagaimana output yang dihasilkan?
+
+Tidak akan terjadi error kompilasi atau runtime, karena Varargs dapat menerima 0 argumen. outputnya hanya akan berisi ``Daftar Nama Pengunjung:``
