@@ -138,3 +138,8 @@ String... namaPengunjung adalah varargs (variable arguments), Artinya fungsi dap
 2. Modifikasi method daftarPengunjung menggunakan for-each loop.
 
 --
+
+3. Bisakah menggunakan dua tipe data varaargs dalam satu fungsi? Jelaskan jawaban Anda berdasarkan aturan varargs di Java, dan berikan contohnya!
+
+tidak bisa, Di Java, hanya boleh ada satu varargs parameter dalam satu method, dan harus ditempatkan di akhir daftar parameter dan Jika ingin menerima tipe berbeda, harus menggunakan array atau tipe objek, atau membuat overload method.
+
