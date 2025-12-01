@@ -59,3 +59,7 @@ parameter nama pelanggan di gunakan untuk menampilkan sambutan lalu nama pelanga
 
 tidak sama karena paremeter adalah variable kusus yang di gunakan untuk menerima nilai dari pemanggil fungsi dan variable adalah tempat untuk menyimpan data dalam progam
 
+4. Jelaskan bagaimana cara kerja parameter isMember pada fungsi Menu(). Apa perbedaan output ketika isMember bernilai true dan ketika false?
+
+Parameter isMember pada fungsi Menu() bekerja sebagai penentu kondisi (boolean) yang menentukan apakah pelanggan akan mendapatkan pesan diskon member atau tidak, ``jika isMember = true`` akan menampilkan ``Anda adalah member, dapatkan diskon 10% untuk setiap pembelian!`` dan ketika false maka tidak akan menampilkan itu
+
