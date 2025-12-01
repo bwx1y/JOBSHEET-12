@@ -173,4 +173,17 @@ Tidak akan terjadi error kompilasi atau runtime, karena Varargs dapat menerima 0
 - Menampilkan volume
 - Program selesai → Scanner ditutup, eksekusi berhenti.
 
-3. 
+3. Apakah output dari program di bawah ini kemudian jelaskan alur jalannya program tersebut!
+
+4. Pada saat apakah fungsi yang kita buat harus menggunakan parameter atau tidak? Pada saat apakah fungsi yang kita buat harus memiliki nilai kembalian atau tidak? Jelaskan!
+
+- Parameter digunakan jika fungsi membutuhkan data dari luar agar dapat menjalankan tugasnya.
+
+Parameter memungkinkan fungsi menjadi fleksibel dan dapat digunakan ulang dengan data berbeda tanpa mengubah kode fungsi.
+Jika fungsi tidak membutuhkan data dari luar, maka parameter tidak perlu.
+
+- Nilai kembalian diperlukan jika hasil perhitungan atau informasi dari fungsi akan digunakan di tempat lain.
+
+Fungsi yang mengembalikan nilai memungkinkan pemanggil menyimpan atau memproses hasilnya.
+Jika fungsi hanya melakukan aksi, misalnya menampilkan sesuatu ke layar, nilai kembalian tidak perlu (void).
+
