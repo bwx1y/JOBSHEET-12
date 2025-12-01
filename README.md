@@ -106,3 +106,14 @@ berhasil di jalankan dan memberikan ``Kode promo berlaku: Diskon 30%!``
 Ya, penggunaan parameter namaPelanggan dan isMember pada fungsi Menu() membuat program lebih mudah dibaca, fleksibel, dan mudah dikembangkan dibandingkan menulis nilai-nilai tersebut langsung di dalam fungsi. karena kode lebih fleksibel, Memudahkan pemeliharaan, kode lebih rapi dan modular, Mendukung pengembangan program
 
 ## Percobaan 2.3
+
+1. Jelaskan secara singkat kapan suatu fungsi membutuhkan nilai kembalian (return value) dan kapan fungsi tidak perlu mengembalikan nilai. Berikan minimal satu contoh dari program kafe pada Percobaan 3 untuk masing-masing kasus.
+
+- Fungsi membutuhkan nilai kembalian (return value)
+
+Suatu fungsi membutuhkan nilai kembalian jika hasil dari fungsi tersebut akan digunakan atau disimpan untuk keperluan lain, misalnya perhitungan, logika, atau ditampilkan ke pengguna.
+
+- Fungsi tidak perlu mengembalikan nilai (void)
+
+Fungsi tidak perlu nilai kembalian jika hanya melakukan aksi atau efek samping (misalnya menampilkan informasi ke layar, menulis file, atau mengubah variabel global) dan tidak perlu menghasilkan nilai untuk digunakan di tempat lain.
+
