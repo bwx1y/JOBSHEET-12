@@ -45,3 +45,9 @@ public class Kafe18 {
 - Selesai menjalankan Menu() → Setelah semua perintah selesai, eksekusi kembali ke fungsi main().
 - Program selesai → Karena tidak ada perintah lain di dalam main(), program berhenti.
 
+## Percobaan 2.2
+
+1. Apakah kegunaan parameter di dalam fungsi?
+
+Parameter memungkinkan kita mengirim nilai atau informasi dari luar fungsi ke dalam fungsi.
+
