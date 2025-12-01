@@ -134,3 +134,7 @@ type data yang dikembalikan adalah int dan lalu dua type data yang di gunakan ad
 1. Jelaskan mengapa penulisan parameter di praktikum 4 ditulis dengan String... namaPengunjung!
 
 String... namaPengunjung adalah varargs (variable arguments), Artinya fungsi dapat menerima 0 atau lebih argumen bertipe String.
+
+2. Modifikasi method daftarPengunjung menggunakan for-each loop.
+
+--
