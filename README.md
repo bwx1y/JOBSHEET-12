@@ -105,3 +105,4 @@ berhasil di jalankan dan memberikan ``Kode promo berlaku: Diskon 30%!``
 
 Ya, penggunaan parameter namaPelanggan dan isMember pada fungsi Menu() membuat program lebih mudah dibaca, fleksibel, dan mudah dikembangkan dibandingkan menulis nilai-nilai tersebut langsung di dalam fungsi. karena kode lebih fleksibel, Memudahkan pemeliharaan, kode lebih rapi dan modular, Mendukung pengembangan program
 
+## Percobaan 2.3
