@@ -192,3 +192,8 @@ Jika fungsi hanya melakukan aksi, misalnya menampilkan sesuatu ke layar, nilai k
 - Fungsi menggunakan parameter ketika membutuhkan data dari luar agar dapat melakukan perhitungan atau aksi secara fleksibel.
 - Fungsi boleh tanpa parameter jika tidak memerlukan input dari luar atau data sudah tersedia di dalam fungsi itu sendiri. Biasanya untuk aksi tetap, seperti menampilkan pesan statis.
 
+6. Jelaskan kapan sebuah fungsi sebaiknya memiliki nilai kembalian (return value) dan kapan tidak perlu memiliki nilai kembalian, dengan mengacu pada fungsi main, hitungLuas, dan hitungVolume.
+
+- Fungsi memiliki nilai kembalian ketika hasil perhitungan atau informasi dari fungsi perlu digunakan di tempat lain, misalnya disimpan di variabel atau diproses lebih lanjut.
+- Fungsi tidak perlu nilai kembalian (void) jika hanya melakukan aksi, misalnya menampilkan informasi atau memodifikasi variabel internal, tanpa perlu mengembalikan hasil ke pemanggil.
+- 
