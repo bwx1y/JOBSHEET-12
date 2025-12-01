@@ -146,3 +146,19 @@ tidak bisa, Di Java, hanya boleh ada satu varargs parameter dalam satu method, d
 4. Jelaskan apa yang terjadi jika fungsi daftarPengunjung dipanggil tanpa argumen. Apakah program akan error saat kompilasi, error saat dijalankan, atau tetap berjalan? Jika tetap berjalan, bagaimana output yang dihasilkan?
 
 Tidak akan terjadi error kompilasi atau runtime, karena Varargs dapat menerima 0 argumen. outputnya hanya akan berisi ``Daftar Nama Pengunjung:``
+
+## Percobaan 2.5
+
+1. Sebutkan tahapan dan urutan eksekusi program pada Percobaan 5, mulai dari program dijalankan hingga menampilkan luas persegi panjang dan volume balok
+
+- Program dijalankan
+- Program mendeklarasikan variabel: ``int p, l, t, L, vol;``
+- Program menampilkan pesan ke layar dan menunggu input pengguna
+- Pengguna memasukkan nilai panjang
+- Pengguna memasukkan nilai lebar 
+- Pengguna memasukkan nilai tinggi
+- Menghitung luas persegi panjang
+- Menampilkan luas
+- Menghitung volume balok
+- Menampilkan volume balok
+- Program selesai
