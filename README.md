@@ -26,3 +26,12 @@ public class Kafe18 {
     }
 }
 ```
+
+3. Jelaskan keuntungan menggunakan fungsi Menu() dibandingkan menulis semua perintah penampilan menu langsung di dalam fungsi main.
+
+- Kode lebih rapi dan terstruktur
+- Memudahkan pemeliharaan (maintenance)
+- Menghindari pengulangan kode (reusability)
+- Lebih mudah dikembangkan
+- Mendukung konsep modular programming
+
