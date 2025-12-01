@@ -63,3 +63,7 @@ tidak sama karena paremeter adalah variable kusus yang di gunakan untuk menerima
 
 Parameter isMember pada fungsi Menu() bekerja sebagai penentu kondisi (boolean) yang menentukan apakah pelanggan akan mendapatkan pesan diskon member atau tidak, ``jika isMember = true`` akan menampilkan ``Anda adalah member, dapatkan diskon 10% untuk setiap pembelian!`` dan ketika false maka tidak akan menampilkan itu
 
+5. Apa yang akan terjadi jika memanggil fungsi Menu() tanpa menyertakan parameter namaPelanggan dan isMember?
+
+Jika kamu memanggil fungsi Menu() tanpa menyertakan parameter namaPelanggan dan isMember, maka program akan menghasilkan error kompilasi (compile-time error).
+
