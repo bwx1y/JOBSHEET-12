@@ -162,3 +162,14 @@ Tidak akan terjadi error kompilasi atau runtime, karena Varargs dapat menerima 0
 - Menghitung volume balok
 - Menampilkan volume balok
 - Program selesai
+
+2. Tuliskan output yang dihasilkan program HitungBalokNoAbsen jika pengguna memasukkan panjang = 4, lebar = 3, dan tinggi = 5. Jelaskan secara singkat alur jalannya program sampai output tersebut muncul.
+
+- program dijalankan
+- Input pengguna: panjang = 4, lebar = 3, dan tinggi = 5.
+- Menghitung luas persegi panjang Fungsi dipanggil Di dalam hitungLuas: Luas = 4 * 3 = 12.
+- Menampilkan luas
+- Fungsi dipanggil Hitung volume: volume = 12 * 5 = 60.
+- Menampilkan volume
+- Program selesai → Scanner ditutup, eksekusi berhenti.
+
