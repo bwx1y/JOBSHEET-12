@@ -35,3 +35,13 @@ public class Kafe18 {
 - Lebih mudah dikembangkan
 - Mendukung konsep modular programming
 
+4. Uraikan secara singkat alur eksekusi program ketika fungsi Menu() dipanggil dari main (mulai dari program dijalankan sampai daftar menu tampil di layar).
+
+- Program dijalankan → JVM (Java Virtual Machine) mencari dan mengeksekusi fungsi main() sebagai titik awal program.
+- Masuk ke fungsi main() → Eksekusi berjalan melalui baris demi baris di dalam main().
+- Baris Menu(); dipanggil → JVM memanggil fungsi Menu() yang berada di kelas yang sama.
+- Masuk ke fungsi Menu() → Program berpindah dari main() ke tubuh fungsi Menu().
+- Menjalankan semua perintah System.out.println() → Setiap baris pada fungsi Menu() dicetak ke layar secara berurutan (judul menu, daftar menu, garis pemisah, dan pesan terakhir).
+- Selesai menjalankan Menu() → Setelah semua perintah selesai, eksekusi kembali ke fungsi main().
+- Program selesai → Karena tidak ada perintah lain di dalam main(), program berhenti.
+
