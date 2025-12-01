@@ -28,9 +28,22 @@ public class hitungTotalHarga18 {
         System.out.println("Silakan pilih menu yang Anda inginkan.");
     }
 
-    public static int hitungTotalHarga (int pilihanMenu, int banyakItem) {
+    public static int hitungTotalHarga (int pilihanMenu, int banyakItem, String kodePromo) {
         int[] hargaItems = {15000, 20000, 22000, 12000, 10000, 18000};
         int hargaTotal = hargaItems[pilihanMenu - 1] * banyakItem;
+
+        if (kodePromo.equalsIgnoreCase("DISKON50")) {
+            int diskon = hargaTotal * 50 / 100;
+            hargaTotal -= diskon;
+            System.out.println("Kode promo berlaku: Diskon 50%! Potongan Rp " + diskon);
+        } else if (kodePromo.equalsIgnoreCase("DISKON30")) {
+            int diskon = hargaTotal * 30 / 100;
+            hargaTotal -= diskon;
+            System.out.println("Kode promo berlaku: Diskon 30%! Potongan Rp " + diskon);
+        } else {
+            System.out.println("Kode promo tidak valid. Tidak ada diskon.");
+        }
+
         return hargaTotal;
     }
 
@@ -43,7 +56,10 @@ public class hitungTotalHarga18 {
         int pilihanMenu = sc.nextInt();
         System.out.print("Masukkan jumlah item yang ingin dipesan: ");
         int banyakItem = sc.nextInt();
-        int totalHarga = hitungTotalHarga(pilihanMenu, banyakItem);
+        System.out.print("Masukkan kode promo (jika ada): ");
+        String kodePromo = sc.nextLine();
+
+        int totalHarga = hitungTotalHarga(pilihanMenu, banyakItem, kodePromo);
 
         System.out.println("Total harga untuk pesanan Anda: Rp" + totalHarga);
     }
