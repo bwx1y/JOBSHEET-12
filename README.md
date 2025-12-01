@@ -187,3 +187,8 @@ Jika fungsi tidak membutuhkan data dari luar, maka parameter tidak perlu.
 Fungsi yang mengembalikan nilai memungkinkan pemanggil menyimpan atau memproses hasilnya.
 Jika fungsi hanya melakukan aksi, misalnya menampilkan sesuatu ke layar, nilai kembalian tidak perlu (void).
 
+5. Jelaskan kapan sebuah fungsi sebaiknya menggunakan parameter dan kapan fungsi boleh tanpa parameter, dengan mengacu pada fungsi hitungLuas dan hitungVolume di Percobaan 5
+
+- Fungsi menggunakan parameter ketika membutuhkan data dari luar agar dapat melakukan perhitungan atau aksi secara fleksibel.
+- Fungsi boleh tanpa parameter jika tidak memerlukan input dari luar atau data sudah tersedia di dalam fungsi itu sendiri. Biasanya untuk aksi tetap, seperti menampilkan pesan statis.
+
