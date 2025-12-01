@@ -117,3 +117,6 @@ Suatu fungsi membutuhkan nilai kembalian jika hasil dari fungsi tersebut akan di
 
 Fungsi tidak perlu nilai kembalian jika hanya melakukan aksi atau efek samping (misalnya menampilkan informasi ke layar, menulis file, atau mengubah variabel global) dan tidak perlu menghasilkan nilai untuk digunakan di tempat lain.
 
+2. Fungsi hitungTotalHargaNoAbsen saat ini mengembalikan total harga berdasarkan pilihanMenu dan jumlahPesanan. Sebutkan tipe data nilai kembalian dan dua buah parameter yang digunakan fungsi tersebut. Jelaskan arti masing-masing parameter dalam konteks program kafe.
+
+type data yang dikembalikan adalah int dan lalu dua type data yang di gunakan adalah ber type int semua 
