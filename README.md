@@ -196,4 +196,9 @@ Jika fungsi hanya melakukan aksi, misalnya menampilkan sesuatu ke layar, nilai k
 
 - Fungsi memiliki nilai kembalian ketika hasil perhitungan atau informasi dari fungsi perlu digunakan di tempat lain, misalnya disimpan di variabel atau diproses lebih lanjut.
 - Fungsi tidak perlu nilai kembalian (void) jika hanya melakukan aksi, misalnya menampilkan informasi atau memodifikasi variabel internal, tanpa perlu mengembalikan hasil ke pemanggil.
-- 
+
+## Tugas 
+
+1. Buatlah sebuah class KubusNoAbsen yang di dalamnya terdapat fungsi untuk menghitung volume kubus dan luar permukaan kubus
+
+-- 
