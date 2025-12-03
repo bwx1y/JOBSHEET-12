@@ -202,3 +202,7 @@ Jika fungsi hanya melakukan aksi, misalnya menampilkan sesuatu ke layar, nilai k
 1. Buatlah sebuah class KubusNoAbsen yang di dalamnya terdapat fungsi untuk menghitung volume kubus dan luar permukaan kubus
 
 -- 
+
+2. Di suatu kelas, terdapat N mahasiswa yang mengikuti satu mata kuliah. Nilai tiap mahasiswa untuk mata kuliah tersebut akan diinputkan oleh pengguna dan disimpan dalam sebuah array 1 dimensi berukuran N. Buatlah sebuah class NilaiMahasiswaNoAbsen yang di dalamnya terdapat beberapa fungsi berikut:
+
+--
