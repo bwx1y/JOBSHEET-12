@@ -22,7 +22,7 @@ public class RekapPenjualanCafe18 {
             System.out.printf("Menu: %s %n", menu[i]);
 
             for (int j = 0; j < value[i].length; j++) {
-                System.out.printf("Hari ke-%d : %d", (j + 1), value[i][j]);
+                System.out.printf("Hari ke-%d : %d %n", (j + 1), value[i][j]);
             }
         }
     }
